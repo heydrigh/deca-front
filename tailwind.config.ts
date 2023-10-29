@@ -11,6 +11,7 @@ const config: Config = {
 			backgroundColor: {
 				'dex-gray': '#292728',
 				primary: '#DBC79A',
+				hover: '#C5B2A5',
 			},
 			textColor: {
 				primary: '#DBC79A',

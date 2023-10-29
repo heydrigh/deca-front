@@ -13,7 +13,8 @@ const Footer = () => {
 	  bg-dex-gray
 		 justify-center 
 		 items-center
-		 pt-12 pb-8'
+		 pt-12 pb-8
+		 '
 		>
 			<SocialNavigation />
 			<Link className='mt-12' passHref href={decaURL} target='_blank' rel='noreferrer noopener'>
@@ -21,12 +22,12 @@ const Footer = () => {
 			</Link>
 			<PartnersNavigation />
 
-			<div className='flex mt-5'>
+			<div className='flex flex-col md:flex-row space-y-1 md:space-y-0 mt-5'>
 				<Link className='text-zinc-100 hover:text-primary' href='#'>
 					Politíca de Privacidade
 				</Link>
 
-				<span className='text-darkGray font-thin text-sm mx-2'>|</span>
+				<span className='text-darkGray font-thin text-sm mx-2 hidden md:block'>|</span>
 
 				<Link className='text-zinc-100 hover:text-primary' href='#'>
 					Preferências de Cookie

@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "luxon": "^3.4.3",
     "next": "14.0.0",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.11.0"
   },
   "devDependencies": {
+    "@types/luxon": "^3.3.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
