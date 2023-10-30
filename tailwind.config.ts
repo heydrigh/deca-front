@@ -12,10 +12,12 @@ const config: Config = {
 				'dex-gray': '#292728',
 				primary: '#DBC79A',
 				hover: '#C5B2A5',
+				inputGray: '#383637',
 			},
 			textColor: {
 				primary: '#DBC79A',
 				darkGray: '#595959',
+				placeholder: '#817763',
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

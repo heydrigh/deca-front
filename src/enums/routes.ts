@@ -5,4 +5,5 @@ export enum RoutesEnum {
 	Catalog = 'catalogos',
 	About = 'sobre',
 	Contact = 'contato',
+	Store = 'Loja',
 }

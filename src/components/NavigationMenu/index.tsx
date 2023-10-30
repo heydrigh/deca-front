@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { menuItems } from './constants'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import SearchBar from '../SearchBar'
+import Drawer from '../Drawer'
 
 const NavigationMenu = () => {
 	return (
@@ -32,9 +33,8 @@ const NavigationMenu = () => {
 				Loja
 			</Link>
 			<SearchBar />
-			<button className='md:hidden'>
-				<GiHamburgerMenu size={22} className='text-primary' />
-			</button>
+
+			<Drawer />
 		</nav>
 	)
 }

@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Logo = () => {
 	return (
 		<Link href='#'>
-			<Image height={70} width={68} src={logo} alt='Deca logo' />
+			<Image height={74} width={70} src={logo} alt='Deca logo' />
 		</Link>
 	)
 }
